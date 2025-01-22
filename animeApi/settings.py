@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-q1u_o41^*)f9*lks&aav0s+@a-&z0@q)xmfa!79s@_r3zkfske
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["0.0.0.0", "http://francescoanimescrapebotproject-djangoapi-oyr0wj-bac82b-135-181-151-206.traefik.me/"]
+ALLOWED_HOSTS = ["0.0.0.0", "francescoanimescrapebotproject-djangoapi-oyr0wj-66718b-135-181-151-206.traefik.me"]
 
 
 # Application definition

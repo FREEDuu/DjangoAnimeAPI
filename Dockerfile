@@ -17,6 +17,6 @@ RUN set -ex && \
 
 COPY . /code
 
-EXPOSE 2345
+EXPOSE 8071
 
-CMD ["sh", "-c", "gunicorn --bind :${PORT:-2345} --workers 2 animeApi.wsgi"]
+CMD ["sh", "-c", "gunicorn --bind :${PORT:-8071} --workers 2 animeApi.wsgi"]
