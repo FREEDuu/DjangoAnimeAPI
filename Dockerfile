@@ -28,4 +28,4 @@ COPY . /code
 EXPOSE 8071
 
 # Run the application with gunicorn
-CMD ["sh", "-c", "gunicorn --bind 0.0.0.0:8071 --workers 2 animeApi.wsgi"]
+CMD ["sh", "-c", "gunicorn --bind :${PORT:-8071} --workers 2 animeApi.wsgi"]
