@@ -19,4 +19,4 @@ COPY . /code
 
 EXPOSE 8071
 
-CMD ["sh", "-c", "gunicorn --bind :${PORT:-8071} --workers 2 animeApi.wsgi"]
+CMD ["sh", "-c", "gunicorn --bind :8071 --workers 2 animeApi.wsgi"]
